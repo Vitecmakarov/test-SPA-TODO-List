@@ -2,6 +2,10 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
+
+# webstorm files
+.idea
 
 # testing
 /coverage
