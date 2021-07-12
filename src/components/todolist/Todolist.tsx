@@ -42,7 +42,7 @@ const Todolist = ({
   return (
       <>
         {todos.length ? todos.map((todo, idx) => (
-            <Paper style={{ marginTop: 10, marginBottom: 10 }}>
+            <Paper style={{ marginTop: 10, marginBottom: 10 }} elevation={4}>
               <Box display="flex" key={idx} >
 
                 <Box  flexGrow={1}>

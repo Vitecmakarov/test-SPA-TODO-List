@@ -52,7 +52,7 @@ const AddTodo = (props: IProps) => {
     return (
         <Grid item xs={12} sm={12}>
           <Typography align="center" variant = "h2">Todo App:</Typography>
-          <Paper style={{ paddingLeft: 16, paddingRight: 16 }}>
+          <Paper style={{ paddingLeft: 16, paddingRight: 16 }} elevation={4}>
             <TextField
                 id="todo"
                 label="What needs to be done?"
